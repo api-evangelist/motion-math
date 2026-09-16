@@ -23,13 +23,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/motion-math.png
 name: Motion Math
-description: Motion Math was an educational math-games company (500 Global portfolio) whose products
-  were acquired by Curriculum Associates and folded into the i-Ready learning platform. As of the
-  enrichment probe (2026-07-20) the motionmathgames.com domain and every subdomain (developer/api/docs)
-  return a 301 redirect to curriculumassociates.com/products/i-ready/i-ready-learning/motionmath-shutdown,
-  and the site shares a wildcard TLS certificate with i-ready.com. The company publishes no independent
-  API, developer portal, documentation, SDK, or /.well-known discovery surface — this profile is retained
-  as a network record of a defunct/acquired provider with no API surface to enrich.
+description: Motion Math was an educational math-games company (500 Global portfolio) whose products were
+  acquired by Curriculum Associates and folded into the i-Ready learning platform. As of the enrichment
+  probe (2026-07-20) the motionmathgames.com domain and every subdomain (developer/api/docs) return a
+  301 redirect to curriculumassociates.com/products/i-ready/i-ready-learning/motionmath-shutdown, and
+  the site shares a wildcard TLS certificate with i-ready.com. The company publishes no independent API,
+  developer portal, documentation, SDK, or /.well-known discovery surface — this profile is retained as
+  a network record of a defunct/acquired provider with no API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/motion-math/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -39,7 +39,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-09-15'
 x-status: defunct
 x-acquired-by: Curriculum Associates (i-Ready)
 tags:
@@ -49,6 +49,7 @@ tags:
 - Math
 - Games
 - Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
